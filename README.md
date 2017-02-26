@@ -61,10 +61,17 @@ Then run the code by clicking the run cell button in the toolbar. Your screen sh
 
 So now you want to save notebook which you spent seconds copying and pasting. How do you do that? From the File dropdown of course:
 
-![Alt text](/jupyterFile.jpg?raw=true "Jupyter File Dropdown")
+![Alt text](/jpuyterFile.jpg?raw=true "Jupyter File Dropdown")
 
 If you click "Save and Checkpoint" here you will save something with the name "Untitled" which is probably something you don't want. Instead click "Rename" and give it some meaningful name like RunGraph and then click File-->Save and Checkpoint and your nifty little program will be saved.
 
-Click back to the tab for your Jupyter home page and refresh. Now you will see your notebook:
+Click back to the tab for your Jupyter Home tab and refresh. Now you will see your notebook:
 
 ![Alt text](/jupyterHome2.jpg?raw=true "Jupyter Home Page")
+
+You are probably thinking this is great except for the part where my code is now saved inside my Docker container. I would much prefer it to be saved on my local hard drive if you don't mind. The simplist way to do that is to use the Jupyter:
+
+File --> Download as --> Notebook (.ipynb)
+
+Then you can save it to anywhere on your hard drive you want. 
+
