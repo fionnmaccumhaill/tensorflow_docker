@@ -73,5 +73,7 @@ You are probably thinking this is great except for the part where my code is now
 
 File --> Download as --> Notebook (.ipynb)
 
-Then you can save it to anywhere on your hard drive you want. 
+![Alt text](/jupyterDownloadNotebook.jpg?raw=true "Jupyter Download Notebook")
+
+Then you can save it to anywhere on your hard drive you want. You are probably thinking that is good but what I really want is to click "Save and Checkpoint" in the File dropdown and have it automagically saved to my hard drive. Can I do that? 
 
