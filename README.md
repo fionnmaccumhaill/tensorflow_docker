@@ -1,7 +1,5 @@
 # tensorflow_docker
 
-IN PROCESS OF EDITING ... this will be removed when it is ready to use
-
 Example code for setting up and running TensorFlow from Docker instance. This was created on a MAC so there are small modifications that need to be made to make it work on Windows.
 
 I am assuming you already have Docker installed. If not, go here and install it:
@@ -77,3 +75,8 @@ File --> Download as --> Notebook (.ipynb)
 
 Then you can save it to anywhere on your hard drive you want. You are probably thinking that is good but what I really want is to click "Save and Checkpoint" in the File dropdown and have it automagically saved to my hard drive. Can I do that? 
 
+Yes. The Docker -v option allows you to save the notebooks to your local drive by mapping  the /notebooks directory in the container to wherever on your local drive you want to save the files. Use this command to start the Docker container and you are all set:
+
+sudo docker run -v /Users/{user}/Desktop/notebooks:/notebooks --name tf3 -it -p 8888:8888 tensorflow/tensorflow
+
+You should replace the {user} with the name of the user on MAC OS.
