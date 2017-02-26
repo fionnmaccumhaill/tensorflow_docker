@@ -25,4 +25,4 @@ Cut and paste the URL into your favorite browser and you are ready to start writ
 
 The URL will put you in a jupyter session like this:
 
-![Alt text](/jupyter.jpg?raw=true "Jupyter Screenshot")
+![Alt text](/jupyterBlank.jpg?raw=true "Jupyter Screenshot")
