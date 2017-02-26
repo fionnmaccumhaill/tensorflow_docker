@@ -1,4 +1,7 @@
 # tensorflow_docker
+
+IN PROCESS OF EDITING ... this will be removed when it is ready to use
+
 Example code for setting up and running TensorFlow from Docker instance. This was created on a MAC so there are small modifications that need to be made to make it work on Windows.
 
 I am assuming you already have Docker installed. If not, go here and install it:
@@ -26,3 +29,8 @@ Cut and paste the URL into your favorite browser and you are ready to start writ
 The URL will put you in a jupyter session like this:
 
 ![Alt text](/jupyterBlank.jpg?raw=true "Jupyter Screenshot")
+
+As you can see there are a couple of notebooks already in my jupyter session. Ignore those since they will not show up in your session. Click on the "New" button in the upper right hand corner and select Python2 from the dropdown. You will then be presented with a blank notebook page like this:
+
+![Alt text](/jupyterNotebookBlank.jpg?raw=true "Jupyter Notebook")
+
