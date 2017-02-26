@@ -34,3 +34,28 @@ As you can see there are a couple of notebooks already in my jupyter session. Ig
 
 ![Alt text](/jupyterNotebookBlank.jpg?raw=true "Jupyter Notebook")
 
+Now we are ready to write (or cut and paste) some Python code into the notebook.
+
+Copy and paste this code into the box "In [ ]:"
+
+    import tensorflow as tf
+    import matplotlib.pyplot as mp
+    import numpy as np
+
+    sn = 200
+
+    x = np.linspace(0, 2*np.pi, sn, dtype=np.float32)
+    mp.plot (x, np.sin(x**2))
+    mp.title ("A simple chirp - " + str(sn))
+
+    sess = tf.Session()
+    init = tf.global_variables_initializer()
+
+    sess.run(init)
+
+    mp.show()
+    
+Then run the code by clicking the run cell button in the toolbar. Your screen should now look like this:
+
+![Alt text](/jupyterRunGraph.jpg?raw=true "Jupyter Run Graph")
+
