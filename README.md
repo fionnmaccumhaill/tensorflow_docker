@@ -59,3 +59,12 @@ Then run the code by clicking the run cell button in the toolbar. Your screen sh
 
 ![Alt text](/jupyterRunGraph.jpg?raw=true "Jupyter Run Graph")
 
+So now you want to save notebook which you spent seconds copying and pasting. How do you do that? From the File dropdown of course:
+
+![Alt text](/jupyterFile.jpg?raw=true "Jupyter File Dropdown")
+
+If you click "Save and Checkpoint" here you will save something with the name "Untitled" which is probably something you don't want. Instead click "Rename" and give it some meaningful name like RunGraph and then click File-->Save and Checkpoint and your nifty little program will be saved.
+
+Click back to the tab for your Jupyter home page and refresh. Now you will see your notebook:
+
+![Alt text](/jupyterHome2.jpg?raw=true "Jupyter Home Page")
