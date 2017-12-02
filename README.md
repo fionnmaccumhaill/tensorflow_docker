@@ -8,7 +8,7 @@ https://www.docker.com/products/overview
 
 Once Docker is installed running a Docker instance with TensorFlow is as simple as typing:
 
-sudo docker run --name tf1 -it -p 8888:8888 tensorflow/tensorflow
+sudo docker run --name tf1 -it -p 8888:8888 tensorflow/tensorflow:latest-py3
 
 This will create a Docker instance and start TensorFlow.
 
@@ -28,7 +28,7 @@ The URL will put you in a jupyter session like this:
 
 ![Alt text](/jupyterBlank.jpg?raw=true "Jupyter Screenshot")
 
-As you can see there are a couple of notebooks already in my jupyter session. Ignore those since they will not show up in your session. Click on the "New" button in the upper right hand corner and select Python2 from the dropdown. You will then be presented with a blank notebook page like this:
+As you can see there are a couple of notebooks already in my jupyter session. Ignore those since they will not show up in your session. Click on the "New" button in the upper right hand corner and select Python3 from the dropdown. You will then be presented with a blank notebook page like this:
 
 ![Alt text](/jupyterNotebookBlank.jpg?raw=true "Jupyter Notebook")
 
@@ -77,6 +77,6 @@ Then you can save it to anywhere on your hard drive you want. You are probably t
 
 Yes. The Docker -v option allows you to save the notebooks to your local drive by mapping  the /notebooks directory in the container to wherever on your local drive you want to save the files. Use this command to start the Docker container and you are all set:
 
-sudo docker run -v /Users/{user}/Desktop/notebooks:/notebooks --name tf3 -it -p 8888:8888 tensorflow/tensorflow
+sudo docker run -v /Users/{user}/Desktop/notebooks:/notebooks --name tf3 -it -p 8888:8888 tensorflow/tensorflow:latest-py3
 
 You should replace the {user} with the name of the user on MAC OS.
